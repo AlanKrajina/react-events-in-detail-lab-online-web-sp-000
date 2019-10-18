@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 
 export default class CoordinatesButton extends React.Component {
 
-  newArray = () => {
-    console.log('Good!');
+  newArray = (event) => {
+     let array=[event.clientX,event.clientY];
   }
 
 
