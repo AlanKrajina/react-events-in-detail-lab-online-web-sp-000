@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 export default class CoordinatesButton extends React.Component {
 
-  handleFocus = () => {
+  newArray = () => {
     console.log('Good!');
   }
 
@@ -11,7 +11,7 @@ export default class CoordinatesButton extends React.Component {
 
   render() {
     return (
-      <button onClick={this.handleFocus} ></button>
+      <button onClick={this.newArray} ></button>
     );
   }
 }
