@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class CoordinatesButton extends React.Component {
 
   newArray = (event) => {
-     let array=[event.clientX,event.clientY];
+  return   let array=[event.clientX,event.clientY];
   }
 
 
