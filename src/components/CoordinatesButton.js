@@ -13,7 +13,7 @@ export default class CoordinatesButton extends React.Component {
 
   render() {
     return (
-      <button onFocus={this.handleFocus} onBlur={this.handleBlur}></button>
+      <button onClick={this.handleFocus} ></button>
     );
   }
 }
