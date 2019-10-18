@@ -7,9 +7,7 @@ export default class CoordinatesButton extends React.Component {
     console.log('Good!');
   }
 
-  handleBlur = () => {
-    console.log('Hey! Eyes on me!');
-  }
+
 
   render() {
     return (
